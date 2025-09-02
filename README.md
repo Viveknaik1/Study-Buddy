@@ -1,4 +1,4 @@
-# 📚 Study Buddy - Enhanced RAG Chat Application
+# Study Buddy - Enhanced RAG Chat Application
 
 A powerful Retrieval-Augmented Generation (RAG) application built with Streamlit that transforms how you interact with your documents. Upload PDFs and text files, get instant AI-powered answers with source citations, and enjoy persistent sessions that remember everything.
 
@@ -7,14 +7,14 @@ A powerful Retrieval-Augmented Generation (RAG) application built with Streamlit
 ![LangChain](https://img.shields.io/badge/LangChain-0.2.1-green)
 ![FAISS](https://img.shields.io/badge/FAISS-1.8.0-orange)
 
-## ✨ Key Features
+## Key Features
 
-- **🚀 Smart Persistence**: Automatically restores your chat history, uploaded files, and pre-built FAISS index across sessions
-- **⚡ Fast Local Embeddings**: Uses `all-MiniLM-L6-v2` for optimal speed and accuracy in document Q&A
-- **📄 Multi-Format Support**: Upload PDF and TXT files with intelligent text extraction
-- **🤖 AI-Powered Responses**: Optional Google Gemini integration for enhanced answer quality
-- **🔍 Intelligent Search**: MMR-based retrieval with FAISS for diverse, relevant results
-- **💾 Session Memory**: Never lose your work - everything is automatically saved and restored
+- ** Smart Persistence**: Automatically restores your chat history, uploaded files, and pre-built FAISS index across sessions
+- ** Fast Local Embeddings**: Uses `all-MiniLM-L6-v2` for optimal speed and accuracy in document Q&A
+- ** Multi-Format Support**: Upload PDF and TXT files with intelligent text extraction
+- ** AI-Powered Responses**: Optional Google Gemini integration for enhanced answer quality
+- ** Intelligent Search**: MMR-based retrieval with FAISS for diverse, relevant results
+- ** Session Memory**: Never lose your work - everything is automatically saved and restored
 
 ## 🛠️ Tech Stack
 
@@ -25,7 +25,7 @@ A powerful Retrieval-Augmented Generation (RAG) application built with Streamlit
 - **Vector Database**: FAISS (Facebook AI Similarity Search)
 - **Environment**: Python 3.8+, Virtual Environment
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -85,7 +85,7 @@ A powerful Retrieval-Augmented Generation (RAG) application built with Streamlit
 - **Model Selection**: The app automatically uses the optimal `all-MiniLM-L6-v2` embedding model
 - **Persistence**: Your chat history and uploaded files are automatically saved and restored
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Environment Variables
 - `GOOGLE_API_KEY`: Your Google API key for Gemini integration (optional)
@@ -113,7 +113,7 @@ Study-Buddy-RAG/
 └── app_state.json           # Application state persistence (auto-generated)
 ```
 
-## 🎯 Use Cases
+##  Use Cases
 
 - **Academic Research**: Quickly search through research papers and academic documents
 - **Business Intelligence**: Analyze reports, contracts, and business documents
@@ -121,7 +121,7 @@ Study-Buddy-RAG/
 - **Content Creation**: Research and reference materials for writing projects
 - **Personal Knowledge Management**: Organize and search through personal documents
 
-## 🔍 How It Works
+##  How It Works
 
 1. **Document Ingestion**: PDFs and TXTs are processed and text is extracted
 2. **Text Chunking**: Documents are split into manageable chunks with overlap
@@ -131,36 +131,9 @@ Study-Buddy-RAG/
 6. **Response Generation**: Relevant document chunks are retrieved and used to generate AI responses
 7. **Persistence**: All data is automatically saved for future sessions
 
-## 🚀 Performance Features
+##  Performance Features
 
 - **Smart Caching**: Embeddings and models are cached for faster subsequent runs
 - **Batch Processing**: Documents are processed in batches for memory efficiency
 - **Optimized Search**: MMR (Maximal Marginal Relevance) for diverse, relevant results
 - **Session Persistence**: No need to re-upload or re-index documents
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Streamlit](https://streamlit.io/) for the amazing web framework
-- [LangChain](https://langchain.com/) for the RAG framework
-- [FAISS](https://github.com/facebookresearch/faiss) for vector similarity search
-- [Sentence Transformers](https://www.sbert.net/) for text embeddings
-- [Google Gemini](https://ai.google.dev/) for advanced language model capabilities
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-1. Check the [Issues](https://github.com/YOUR_USERNAME/Study-Buddy-RAG/issues) page
-2. Create a new issue with detailed information
-3. Include your Python version, OS, and error messages
-
----
-
-**Made with ❤️ for better document understanding and AI-powered research**
